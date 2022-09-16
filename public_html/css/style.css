@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+body {
+  background-color: #000;
+  color: #808080;
+  font-family: 'Rubik', sans-serif;
+}
+
+#intro {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: -100px;
+}
+
+h1 {
+  font-family: 'Markazi Text', serif;
+  letter-spacing: 0.5px;
+  font-size: 70px;
+  color: #CCC;
+  margin-top: 270px;
+  margin-bottom: 20px;
+}
+
+#intro .buttonStyling {
+  border-radius: 3px;
+  border: #808080 solid 2px;
+}
+
+#intro .buttonStyling:hover {
+  transition: 0.2s;
+  color: #000;
+  background-color: #808080;
+}
+
+.buttonStyling {
+  font-family: 'Rubik', sans-serif;
+  color: #808080;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.buttonStyling a:hover {
+  transition: 0.2s;
+  background-color: #CCC;
+}
+
+#intro #browse {
+  margin-left: 15px;
+}
+
+#intro #create {
+  margin-right: 15px;
+}
+
+header {
+  padding: 10px 20px;
+  margin-bottom: 70px;
+}
+
+header h2 {
+  color: #CCC;
+  font-family: 'Markazi Text', serif;
+  letter-spacing: 0.5px;
+  font-size: 30px;
+  float: left;
+  padding: 5px 10px;
+}
+
+header .buttonStyling {
+  float: right;
+  color: #808080;
+}
+
+header .buttonStyling:hover {
+  transition: 0.2s;
+  color: #CCC;
+}
+
+#createContentArea {
+  margin: 0 auto;
+  width: 94%;
+}
+
+#designArea {
+  height: 500px;
+}
+
+#inputOptions p {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #808080;
+}
+
+#inputOptions button {
+  background-color: transparent;
+  border: none;
+  margin-top: 10px;
+  padding: 0;
+  color: #CCC;
+}
+
+#inputOptions button:hover {
+  transition: 0.2s;
+  color: #FFF;
+}
+
+#uploadAudio {
+  margin-left: 20px;
+}
+
+#browseContentArea {
+  margin: 0 auto;
+  width: 94%;
+  font-size: 16px;
+}
+
+#browseContentArea h3 {
+  color: #BFBFBF;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#collectiveDesign {
+  height: 600px;
+  background-color: #404040;
+  background-image: url('../images/collectiveSample.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#browseContentArea p {
+  font-size: 15px;
+  margin-top: 15px;
+  color: #808080;
+}
+
+#details {
+  margin-top: 40px;
+}
+
+.names {
+  margin-left: 3%;
+  margin-right: 2%;
+  float: left;
+  width: 46%;
+  color: #B2B2B2;
+}
+
+.locations {
+  color: #555555;
+  display: inline;
+}
+
+.keywords {
+  width: 46%;
+  float: right;
+}
+
+.far, .fas {
+  font-size: 18px;
+  display: none;
+}
+
+#floatedControls {
+  float: right;
+  display: inline-block;
+  margin-top: -25px;
+}
+
+.fa-arrow-circle-left, .fa-arrow-circle-right {
+  color: #808080;
+  display: block;
+  font-size: 15px;
+}
+
+.fa-arrow-circle-left:hover, .fa-arrow-circle-right:hover {
+  transition: 0.2s;
+  color: #FFF;
+}
+
+/* removing blue border that appears when a button is pressed */
+button:focus {outline:0;}
+
+.buttonVisibility {
+  display: none;
+}
+
+#floatedControls {
+  display: none;
+}
+
+#file-upload-button {
+  color: red !important;
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+}
+
+#upload {
+  color: #CCC;
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+}
+
+audio {
+ margin-top: 20px;
+ width: 200px;
+}
+
+#hidingOptions {
+  display: none;
+}
+
+#handleDesignOptions {
+  width: 400px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 150px 0 0 -200px;
+  height: 280px;
+  z-index: 10;
+  background-color: #000;
+  border: #808080 solid 2px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+#handleDesignOptions p {
+  margin: 35px 0 20px 0;
+  color: #CCC;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#handleDesignOptions .buttonStyling {
+  background-color: #808080;
+  padding: 8px 12px;
+  color: #000;
+  border-radius: 3px;
+}
+
+#exitButton {
+  position: absolute;
+  z-index: 100;
+  right: 15px;
+  top: 3px;
+}
+
+.saveButton {
+  text-align: center;
+  margin: 0 auto;
+}
+
+form {
+  width: 500px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -25px 0 0 -250px;
+  height: 280px;
+  z-index: 10;
+  border-radius: 3px;
+  text-align: center;
+  border: 2px #808080 solid;
+  padding-bottom: 70px;
+  background-color: #000;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: none;
+}
+
+.formRequirement {
+  margin-left: 5px;
+  font-size: 10px;
+  color: #808080;
+}
+
+fieldset {
+  border: none;
+}
+
+#contributeDecision {
+  font-size: 12px;
+  margin-top: -3px;
+}
+
+input[type=submit] {
+  background-color: #000;
+  color: #CCC;
+  border: 1px solid #CCC;
+  border-radius: 2px;
+  font-family: 'Rubik', sans-serif;
+  padding: 5px 10px;
+}
+
+#displayCollectiveDesign {
+  width: 100%;
+  height: 500px;
+  margin: 30px auto;
+  display: block;
+}
+
+/* Some basic styling for smaller screen sizes */
+@media only screen and (max-width: 750px) {
+  header {
+    margin-bottom: 20px;
+  }
+
+  header h2, header button {
+    float: none;
+    display: block;
+  }
+  /* making the buttons more obvious (since hover effects won't work on mobile) */
+  header .buttonStyling, #inputOptions button {
+    float: none;
+    margin: 0;
+    padding: 5px 10px;
+    display: inline-block;
+    background-color: #404040;
+    border-radius: 3px;
+    color: #CCC;
+  }
+
+  #inputOptions button {
+    margin-top: 10px;
+    background-color: #808080;
+    color: #FFF;
+  }
+
+  #floatedControls button {
+    background-color: #000;
+  }
+}
