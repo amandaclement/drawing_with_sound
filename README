@@ -1,18 +1,1 @@
-Drawing With Sound is a data visualization that illustrates patterns by capturing
-the invisible properties of sound. Users can use their voice, instruments, natural
-noises, or any other audio as input to output a visual representation on their
-device’s screen. The design is constructed based on changes in the detected
-characteristics (volume and frequency) of the registered sound.
-
-The project includes two sections: CREATE and BROWSE. CREATE is where users can
-create a visualization using their own audio. It includes a few controls allowing
-the user to customize their pattern. Once their design is complete, they may save
-it to their personal device, delete it, or upload it to the gallery. When a user
-chooses to upload their pattern to the gallery, they are presented with an HTML
-form asking them to fill out some basic details about themselves and their design.
-On submit, the HTML form data is stored in a database to be retrieved and displayed
-on the BROWSE page. At this stage, a new JSON file with a unique ID is created,
-which features a select number of ellipses which were used to create the user's
-pattern. This file is then processed using PHP and a select number of these ellipses
-are then added to the collective patterns found on the BROWSE page, along with the
-data from the HTML form.
+An interactive web-based experience that illustrates patterns by capturing the invisible properties of sound. The design is constructed based on changes in certain characteristics of the audio picked up by the user's microphone.
